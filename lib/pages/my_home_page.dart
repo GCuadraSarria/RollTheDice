@@ -11,12 +11,12 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   // list of images assets
   List<String> diceImagesPath = [
-    'lib/images/1.png',
-    'lib/images/2.png',
-    'lib/images/3.png',
-    'lib/images/4.png',
-    'lib/images/5.png',
-    'lib/images/6.png',
+    'assets/images/1.png',
+    'assets/images/2.png',
+    'assets/images/3.png',
+    'assets/images/4.png',
+    'assets/images/5.png',
+    'assets/images/6.png',
   ];
 
   // random number
@@ -280,7 +280,7 @@ class CombinationDicePercentage extends StatelessWidget {
           children: [
             SizedBox(
               height: 35.0,
-              child: Image.asset('lib/images/$imageNumber.png'),
+              child: Image.asset('assets/images/$imageNumber.png'),
             ),
             RichText(
               text: TextSpan(

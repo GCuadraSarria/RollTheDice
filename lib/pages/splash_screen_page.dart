@@ -66,7 +66,7 @@ class _SplashScreenPageState extends State<SplashScreenPage>
 
               // animation icon
               Lottie.asset(
-                'lib/images/animated_dice.json',
+                'assets/images/animated_dice.json',
                 width: 400,
                 height: 400,
                 fit: BoxFit.fill,
